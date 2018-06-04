@@ -1,4 +1,4 @@
-﻿function Invoke-JSRatRundll
+function Invoke-JSRatRundll
 {
 <#
 .SYNOPSIS
@@ -171,4 +171,6 @@ https://github.com/samratashok/nishang
 
     $listener.Stop()
 }
+
+
 

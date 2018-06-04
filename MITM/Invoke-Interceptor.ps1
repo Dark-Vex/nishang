@@ -1,4 +1,4 @@
-﻿function Invoke-Interceptor
+function Invoke-Interceptor
 {
 <#
 .SYNOPSIS
@@ -787,3 +787,4 @@ function Main()
 
 Main
 }
+

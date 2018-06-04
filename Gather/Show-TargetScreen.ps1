@@ -1,4 +1,4 @@
-﻿
+
 function Show-TargetScreen
 {
 <#
@@ -167,4 +167,6 @@ https://github.com/samratashok/nishang
         }
     }
 }
+
+
 

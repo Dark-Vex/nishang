@@ -1,4 +1,4 @@
-﻿function Invoke-NetworkRelay
+function Invoke-NetworkRelay
 {    
 <#
 .SYNOPSIS
@@ -229,3 +229,4 @@ https://github.com/samratashok/nishang
         }
     }
 }
+

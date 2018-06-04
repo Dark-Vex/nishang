@@ -1,4 +1,4 @@
-﻿function Out-DnsTxt
+function Out-DnsTxt
 {
 <#
 .SYNOPSIS
@@ -111,3 +111,4 @@ https://github.com/samratashok/nishang
 
 
 }
+

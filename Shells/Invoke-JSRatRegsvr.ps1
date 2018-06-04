@@ -1,4 +1,4 @@
-﻿function Invoke-JSRatRegsvr
+function Invoke-JSRatRegsvr
 {
 <#
 .SYNOPSIS
@@ -197,4 +197,6 @@ https://github.com/samratashok/nishang
 
     $listener.Stop()
 }
+
+
 

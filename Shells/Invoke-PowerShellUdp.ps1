@@ -1,4 +1,4 @@
-﻿function Invoke-PowerShellUdp
+function Invoke-PowerShellUdp
 { 
 <#
 .SYNOPSIS
@@ -142,3 +142,4 @@ https://github.com/samratashok/nishang
         Write-Error $_
     }
 }
+

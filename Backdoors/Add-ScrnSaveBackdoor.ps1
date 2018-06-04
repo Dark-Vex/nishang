@@ -1,4 +1,4 @@
-﻿function Add-ScrnSaveBackdoor
+function Add-ScrnSaveBackdoor
 {
 <#
 .SYNOPSIS
@@ -120,3 +120,4 @@ https://github.com/samratashok/nishang
         Write-Output "Payload added as Debugger for $ScreenSaverName"
     }
 }
+

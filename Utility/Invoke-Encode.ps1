@@ -1,4 +1,4 @@
-﻿function Invoke-Encode
+function Invoke-Encode
 {
 <#
 .SYNOPSIS
@@ -141,3 +141,4 @@ https://github.com/samratashok/nishang
         }
     }
 }
+

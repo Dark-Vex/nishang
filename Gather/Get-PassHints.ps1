@@ -1,4 +1,4 @@
-﻿function Get-PassHints { 
+function Get-PassHints {
 <# 
 .SYNOPSIS 
 Nishang script which extracts password hint for users in clear text.
@@ -68,3 +68,4 @@ Param ()
     $acl.Access | where {$_.IdentityReference.Value -eq $user} | %{$acl.RemoveAccessRule($_)} | Out-Null
     Set-Acl HKLM:\SAM\SAM\Domains $acl
 }
+

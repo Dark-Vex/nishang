@@ -1,4 +1,4 @@
-﻿function Invoke-PowerShellTcp 
+function Invoke-PowerShellTcp 
 { 
 <#
 .SYNOPSIS
@@ -124,3 +124,4 @@ https://github.com/samratashok/nishang
         Write-Error $_
     }
 }
+

@@ -1,4 +1,4 @@
-﻿function Start-CaptureServer
+function Start-CaptureServer
 {
 <#
 .SYNOPSIS
@@ -189,4 +189,6 @@ function ExtractHash([string] $NTLMType3)
 
     $listener.Stop()
 }
+
+
 

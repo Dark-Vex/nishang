@@ -1,4 +1,4 @@
-﻿function Invoke-PsUACme
+function Invoke-PsUACme
 {
 <#
 .SYNOPSIS
@@ -413,3 +413,5 @@ https://github.com/samratashok/nishang
     Write-Verbose "$PayloadPath must be removed manually."
     
 }
+
+
